@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="02c9bc92b7324da8907a6d3b28c4e1f1" Name="Diagram1" ZoomLevel="69">
+        <EntityTypeShape EntityType="WarehouseManagementModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WarehouseManagementModel.Инвентаризация" Width="1.5" PointX="0.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="WarehouseManagementModel.Клиенты" Width="1.5" PointX="1.5" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WarehouseManagementModel.Пользователи" Width="1.5" PointX="7.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WarehouseManagementModel.Поставщики" Width="1.5" PointX="1.5" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WarehouseManagementModel.ПриходныеНакладные" Width="1.5" PointX="3.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WarehouseManagementModel.РасходныеНакладные" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="WarehouseManagementModel.Склады" Width="1.5" PointX="3.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WarehouseManagementModel.Товары" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WarehouseManagementModel.ЭлементыИнвентаризации" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WarehouseManagementModel.ЭлементыПриходнойНакладной" Width="1.5" PointX="6" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WarehouseManagementModel.ЭлементыРасходнойНакладной" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="WarehouseManagementModel.FK__ЭлементыИ__Идент__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="WarehouseManagementModel.FK__Расходные__Идент__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="WarehouseManagementModel.FK__Приходные__Идент__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="WarehouseManagementModel.FK__ЭлементыП__Идент__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="WarehouseManagementModel.FK__ЭлементыР__Идент__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="WarehouseManagementModel.FK__ЭлементыИ__Идент__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="WarehouseManagementModel.FK__ЭлементыП__Идент__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="WarehouseManagementModel.FK__ЭлементыР__Идент__4AB81AF0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
